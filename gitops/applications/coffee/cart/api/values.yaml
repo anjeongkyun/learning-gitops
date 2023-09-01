@@ -5,7 +5,7 @@ service:
     exposed: true
 image:
   repository: ghcr.io/anjeongkyun/coffee/cart/api
-  tag: latest
+  tag: rc-5f12d72
   pullPolicy: IfNotPresent
 env:
   - name: TZ
